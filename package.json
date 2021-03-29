@@ -1,0 +1,33 @@
+{
+  "name": "express-yourself",
+  "version": "1.0.0",
+  "description": "Dummy API",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "9fin",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "ajv-error-messages": "^1.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-json-validator-middleware": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1",
+    "supertest": "^6.1.3"
+  }
+}
